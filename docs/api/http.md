@@ -11,8 +11,8 @@ http://127.0.0.1:8090/wallet/listexchanges?visible=true
 ```json
 curl -X POST http://127.0.0.1:8090/wallet/createtransaction -d
 '{
-    "owner_address": "TRGhNNfnmgLegT4zHNjEqDSADjgmnHvubJ",
-    "to_address": "TJCnKsPa7y5okkXvQAidZBzqx3QyQ6sxMW",
+    "owner_address": "",
+    "to_address": "",
     "amount": 1000000,
     "visible": true
 }'
@@ -98,13 +98,13 @@ Description: Update the account's permission.
 ```
 curl -X POST  http://127.0.0.1:8090/wallet/accountpermissionupdate -d
 '{
-    "owner_address": "TRGhNNfnmgLegT4zHNjEqDSADjgmnHvubJ",
+    "owner_address": "TTiwmTcCH91ZfetXcEdtmkEtsJVJ5YxbPn",
     "owner": {
         "type": 0,
         "permission_name": "owner",
         "threshold": 1,
         "keys": [{
-            "address": "TRGhNNfnmgLegT4zHNjEqDSADjgmnHvubJ",
+            "address": "TTiwmTcCH91ZfetXcEdtmkEtsJVJ5YxbPn",
             "weight": 1
         }]
     },
@@ -113,7 +113,7 @@ curl -X POST  http://127.0.0.1:8090/wallet/accountpermissionupdate -d
         "permission_name": "witness",
         "threshold": 1,
         "keys": [{
-            "address": "TRGhNNfnmgLegT4zHNjEqDSADjgmnHvubJ",
+            "address": "TTiwmTcCH91ZfetXcEdtmkEtsJVJ5YxbPn",
             "weight": 1
         }]
     },
@@ -257,7 +257,7 @@ curl -X POST  http://127.0.0.1:8090/wallet/getsignweight -d '{
             "parameter": {
                 "value": {
                     "amount": 1000000,
-                    "owner_address": "TRGhNNfnmgLegT4zHNjEqDSADjgmnHvubJ",
+                    "owner_address": "TTiwmTcCH91ZfetXcEdtmkEtsJVJ5YxbPn",
                     "to_address": "TJCnKsPa7y5okkXvQAidZBzqx3QyQ6sxMW"
                 },
                 "type_url": "type.googleapis.com/protocol.TransferContract"
@@ -290,7 +290,7 @@ curl -X POST  http://127.0.0.1:8090/wallet/getapprovedlist -d '{
             "parameter": {
                 "value": {
                     "amount": 1000000,
-                    "owner_address": "TRGhNNfnmgLegT4zHNjEqDSADjgmnHvubJ",
+                    "owner_address": "TTiwmTcCH91ZfetXcEdtmkEtsJVJ5YxbPn",
                     "to_address": "TJCnKsPa7y5okkXvQAidZBzqx3QyQ6sxMW"
                 },
                 "type_url": "type.googleapis.com/protocol.TransferContract"
