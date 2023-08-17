@@ -145,9 +145,9 @@ Get account information by an address
 wallet> getaccount [address]
 ```
 ```shell
-wallet> getaccount TSzdGHnhYnQKFF4LKrRLztkjYAvbNoxnQ8
+wallet> getaccount TTiwmTcCH91ZfetXcEdtmkEtsJVJ5YxbPn
 {
-	"address": "TSzdGHnhYnQKFF4LKrRLztkjYAvbNoxnQ8",
+	"address": "TTiwmTcCH91ZfetXcEdtmkEtsJVJ5YxbPn",
 	"balance": 2665198240,
 	"create_time": 1650363711000,
 	"latest_opration_time": 1653578769000,
@@ -160,7 +160,7 @@ wallet> getaccount TSzdGHnhYnQKFF4LKrRLztkjYAvbNoxnQ8
 		"threshold": 1,
 		"keys": [
 			{
-				"address": "TSzdGHnhYnQKFF4LKrRLztkjYAvbNoxnQ8",
+				"address": "TTiwmTcCH91ZfetXcEdtmkEtsJVJ5YxbPn",
 				"weight": 1
 			}
 		]
@@ -189,7 +189,7 @@ Get the address of the current account
 ```shell
 wallet> getaddress
 GetAddress successful !!
-address = TSzdGHnhYnQKFF4LKrRLztkjYAvbNoxnQ8
+address = TTiwmTcCH91ZfetXcEdtmkEtsJVJ5YxbPn
 ```
 
 ### GetBalance
