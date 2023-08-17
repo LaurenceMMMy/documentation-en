@@ -1,3 +1,4 @@
+registerwallet,
 # Deploy a Java-tron Node
 
 Java-tron nodes support to be deployed on `Linux` or `MacOS` operating systems, and rely on `Oracle JDK 1.8`, other versions of JDK are not supported.
