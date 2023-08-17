@@ -35,18 +35,18 @@ Please input password.
 password: 
 Please input password again.
 password: 
-Register a wallet successful, keystore file name is UTC--2022-06-27T07-37-47.601000000Z--TWyDBTHsWJFhgywWkTNW7vh7jSUxeBaiAw.json
+Register a wallet successful, keystore file name is UTC--2022-06-27T07-37-47.601000000Z--TTiwmTcCH91ZfetXcEdtmkEtsJVJ5YxbPn.json
 ```
 ### Login
 When we have a keystore file, we can start to login. After enter the command, choose the keystore file and enter the password.
 ```shell
 wallet> login
 use user defined config file in current dir
-The 1th keystore file name is UTC--2022-06-28T06-52-56.928000000Z--TB9qhqbev6DpX8mxdf3zDdtSQ6GC6Vb6Ej.json
+The 1th keystore file name is UTC--2022-06-28T06-52-56.928000000Z--TTiwmTcCH91ZfetXcEdtmkEtsJVJ5YxbPn.json
 The 2th keystore file name is .DS_Store
-The 3th keystore file name is UTC--2022-06-22T08-31-57.735000000Z--TBnPDbw99BLzPUZuW8Rrcc3RGGQT3cnSfF.json
-The 4th keystore file name is UTC--2022-04-06T09-43-20.710000000Z--TSzdGHnhYnQKFF4LKrRLztkjYAvbNoxnQ8.json
-The 5th keystore file name is UTC--2022-04-07T09-03-38.307000000Z--TXBpeye7UQ4dDZEnmGDv4vX37mBYDo1tUE.json
+The 3th keystore file name is UTC--2022-06-22T08-31-57.735000000Z--TTiwmTcCH91ZfetXcEdtmkEtsJVJ5YxbPn.json
+The 4th keystore file name is UTC--2022-04-06T09-43-20.710000000Z--TTiwmTcCH91ZfetXcEdtmkEtsJVJ5YxbPn.json
+The 5th keystore file name is UTC--2022-04-07T09-03-38.307000000Z--TTiwmTcCH91ZfetXcEdtmkEtsJVJ5YxbPn.json
 Please choose between 1 and 5
 4
 Please input your password.
